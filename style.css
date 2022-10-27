@@ -1,0 +1,100 @@
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+
+    --lexend-deca: 'Lexend Deca';
+    --big-shoulders-display: 'Big Shoulders Display';
+}
+
+body {
+    margin: 5rem 7% 5rem 7%;
+}
+
+.card {
+    padding: 3rem;
+}
+
+.sedans {
+    border-radius: 5px 5px 0 0;
+    background-color: var(--bright-orange);
+}
+
+.SUVs {
+    background-color: var(--dark-cyan);
+}
+
+.luxury {
+    border-radius: 0 0 5px 5px;
+    background-color: var(--very-dark-cyan);
+}
+
+.titulo {
+    color: var(--very-light-gray);
+    font-family: var(--big-shoulders-display);
+    font-size: 2.5rem;
+    padding: 2rem 0 2rem 0;
+    text-transform: uppercase;
+}
+
+
+.texto {
+    color: var(--transparent-white);
+    font-family: var(--lexend-deca);
+    font-size: 15px;
+    padding-bottom: 2rem;
+    line-height: 1.5rem;
+}
+
+.botao {
+    border-color: var(--very-light-gray);
+    border-radius: 2rem;
+    height: 3rem;
+    width: 9rem;
+}
+
+.botao:active {
+    border-color: var(--very-light-gray);
+    color: var(--very-light-gray);
+    background-color: transparent;
+}
+
+.sedans__botao {
+    color: var(--bright-orange);
+    font-family: var(--lexend-deca);
+}
+
+.SUVs__botao {
+    color: var(--dark-cyan);
+    font-family: var(--lexend-deca);
+}
+
+.luxury__botao {
+    color: var(--very-dark-cyan);
+    font-family: var(--lexend-deca);
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        margin: 10rem 18% 10rem 18%;
+    }
+
+    main {
+        display: flex;
+    }
+    
+    .sedans {
+        border-radius: 5px 0 0 5px;
+    }
+
+    .luxury {
+        border-radius: 0 5px 5px 0;
+    }
+}
