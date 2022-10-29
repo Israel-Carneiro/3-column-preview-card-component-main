@@ -25,7 +25,7 @@ Aqui você pode ver uma prévia deste projeto visto por uma tela de desktop, o q
 E esta é uma prévia de uma tela de celular (com largura de tela menor que 1024px):
 
 <div align="center">
-  <img width=20% src="./images/mobile-design.jpg" alt="Visualização Mobile">
+  <img width=10% src="./images/mobile-design.jpg" alt="Visualização Mobile">
 </div>
 
 ## Estrutura do projeto
