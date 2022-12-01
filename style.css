@@ -49,6 +49,7 @@ body {
 }
 
 .botao {
+    font-family: var(--lexend-deca);
     border: 2px solid var(--very-light-gray);
     border-radius: 2rem;
     height: 3rem;
@@ -63,17 +64,14 @@ body {
 
 .sedans__botao {
     color: var(--bright-orange);
-    font-family: var(--lexend-deca);
 }
 
 .SUVs__botao {
     color: var(--dark-cyan);
-    font-family: var(--lexend-deca);
 }
 
 .luxury__botao {
     color: var(--very-dark-cyan);
-    font-family: var(--lexend-deca);
 }
 
 .attribution {
